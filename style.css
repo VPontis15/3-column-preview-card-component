@@ -123,8 +123,9 @@ a:visited {
   min-height: 100vh;
   display: grid;
   place-content: center;
-  margin-block: 5rem;
+
   background-color: var(--clr-util);
+  overflow: hidden;
 }
 
 .cards {
@@ -185,6 +186,10 @@ a:visited {
 }
 
 @media (max-width: 768px) {
+  .container {
+    margin-block: 5rem;
+  }
+
   .cards {
     flex-direction: column;
   }
