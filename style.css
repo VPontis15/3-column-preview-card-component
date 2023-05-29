@@ -150,8 +150,8 @@ a:visited {
 
 .card1 {
   background-color: var(--clr-orange);
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0.625rem;
+  border-bottom-left-radius: 0.625rem;
 }
 
 .card2 {
@@ -160,8 +160,8 @@ a:visited {
 
 .card3 {
   background-color: var(--clr-darker-cyan);
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
 }
 
 .card__link:hover {
@@ -183,7 +183,7 @@ a:visited {
   color: var(--clr-darker-cyan);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48em) {
   .container {
     margin-block: 5rem;
   }
@@ -193,14 +193,14 @@ a:visited {
   }
 
   .card1 {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
     border-bottom-left-radius: 0;
   }
 
   .card3 {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
     border-top-right-radius: 0;
   }
 
