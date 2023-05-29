@@ -104,13 +104,14 @@ a:visited {
 .card__heading {
   text-transform: uppercase;
   font-family: var(--ff-accent);
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
+  color: var(--clr-util);
 }
 
 .card__paragraph {
-  max-width: 25ch;
+  max-width: 22ch;
 }
 
 .card__image-container img {
@@ -126,9 +127,7 @@ a:visited {
 }
 
 .cards {
-  /* margin: 1rem; */
   display: flex;
-  /* max-width: min(100%, 1100px); */
 }
 
 .card1 {
@@ -186,5 +185,9 @@ a:visited {
   }
   .card__link {
     margin-top: 0;
+  }
+
+  .card__paragraph {
+    max-width: 25ch;
   }
 }
