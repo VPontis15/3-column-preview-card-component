@@ -63,3 +63,27 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+:root {
+  /* Colors */
+  --clr-bg-orange: hsl(31, 77%, 52%);
+  --clr-bg-dark-cyan: hsl(184, 100%, 22%);
+  --clr-bg-darker-cyan: hsl(179, 100%, 13%);
+  --clr-text-main: hsla(0, 0%, 100%, 0.75);
+  --clr-util: hsl(0, 0%, 95%);
+  /* ---------------------------------------------------- */
+  /* Font Sizes */
+  --fs-main: 0.9375rem;
+
+  /* -------------------------- */
+
+  /* Font Families */
+  --ff-main: "Lexend Deca", sans-serif;
+  --ff-accent: "Big Shoulders Display", cursive;
+  /* ---------------------------------------------- */
+
+  /* Font Weights */
+  --fw-main: 400;
+  --fw-accent: 700;
+  /* ------------------- */
+}
