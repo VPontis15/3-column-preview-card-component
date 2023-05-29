@@ -147,17 +147,17 @@ a:visited {
   align-items: start;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   padding: 2.5em;
 }
 
 .card__link {
-  padding: 0.65em 2em;
+  padding: 0.65em 1.75em;
   justify-self: start;
   background-color: #fff;
   border-radius: 20px;
   font-weight: 700;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .card__link:hover {
