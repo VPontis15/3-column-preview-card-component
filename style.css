@@ -87,3 +87,96 @@ h6 {
   --fw-accent: 700;
   /* ------------------- */
 }
+
+body {
+  color: var(--clr-text-main);
+  font-size: var(--fs-main);
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: var(--ff-main);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.card__heading {
+  text-transform: uppercase;
+  font-family: var(--ff-accent);
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card__paragraph {
+  max-width: 25ch;
+}
+
+.card__image-container img {
+  width: 68px;
+  height: 40px;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.cards {
+  /* margin: 1rem; */
+  display: flex;
+  /* max-width: min(100%, 1100px); */
+}
+
+.card1 {
+  background-color: var(--clr-bg-orange);
+}
+
+.card2 {
+  background-color: var(--clr-bg-dark-cyan);
+}
+
+.card3 {
+  background-color: var(--clr-bg-darker-cyan);
+}
+
+.card {
+  justify-content: center;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2.5em;
+}
+
+.card__link {
+  padding: 0.65em 2em;
+  justify-self: start;
+  background-color: #fff;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.card1__link {
+  color: var(--clr-bg-orange);
+}
+
+.card2__link {
+  color: var(--clr-bg-dark-cyan);
+}
+
+.card3__link {
+  color: var(--clr-bg-darker-cyan);
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+  }
+  .card__link {
+    margin-top: 0;
+  }
+}
